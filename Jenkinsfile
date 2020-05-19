@@ -8,6 +8,7 @@ pipeline {
                         s3Upload(file:'index.html', bucket:'jenkinspiplinestaticwebsite', path:'')
                     }                             
                 }
+              }
            }
       }
 }
